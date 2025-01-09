@@ -97,16 +97,13 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
-  location         : "Nashville, TN"
+  avatar           : "https://avatars.githubusercontent.com/u/138741668?height=180&v=4&width=180"
+  bio              : "Someone"
+  location         : "Chicago, IL"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://github.com/LeavingPython33"
 
 
 # Site Footer
@@ -114,10 +111,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://github.com/LeavingPython33"
 
 
 # Reading Files
