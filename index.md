@@ -8,9 +8,6 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-  actions:
-    - label: "My Projects"
-      url: "/portfolio/"
 excerpt: "My name is Alfred Tapia, currently studying for a bachelors in Computer Science at Vanderbilt University. My area of expertise is web development, with an emphasis on front-end development"
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
