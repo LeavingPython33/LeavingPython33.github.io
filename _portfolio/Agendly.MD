@@ -1,7 +1,9 @@
 ---
 title: "Agendly"
 excerpt: "Using AI to streamline adding events from syllabi, agendas, and schedules to your calendar."
-{: .text-center}
+layout: single
+classes:
+  - text-center
 header:
   overlay_image: /assets/img/Cyber-Scooter-Banner.jpg
   overlay_filter: 0.5
