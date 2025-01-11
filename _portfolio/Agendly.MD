@@ -6,6 +6,9 @@ header:
   overlay_image: /assets/img/VandyHackXI.png
   overlay_filter: 0.5
   teaser: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/medium.jpg
+  actions:
+    - label: "Devpost"
+      url: "https://devpost.com/software/agendly"
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
@@ -21,6 +24,8 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 
 ---
+
+## Demonstration
 {% include video id="NWCOUHfcfTk" provider="youtube" %}
 
 ## Inspiration
