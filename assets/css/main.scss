@@ -8,12 +8,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.page__title {
-    text-align: center;
-}
-
-.page__excerpt {
-    text-align: center;
-    margin-top: 10px; /* Adjust for spacing */
-    font-size: 1.2em; /* Optional: Adjust for readability */
-}
+.page__title, .page__excerpt {
+    text-align: center !important;
+  }
+  
+  .page__content {
+    text-align: left !important;
+  }
