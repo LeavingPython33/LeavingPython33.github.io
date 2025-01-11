@@ -2,7 +2,8 @@
 title: "Agendly"
 excerpt: "Using AI to streamline adding events from syllabi, agendas, and schedules to your calendar."
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
+  overlay_image: /assets/img/Cyber-Scooter-Banner.jpg
+  overlay_filter: 0.5
   teaser: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/medium.jpg
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
@@ -15,10 +16,11 @@ gallery:
     image_path: assets/img/Cyber-Scooter-3.jpg
     alt: "placeholder image 3"
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Table of Contents"
 toc_icon: "cog"
 
 ---
+{% include video id="-NWCOUHfcfTk" provider="youtube" %}
 
 ## Inspiration
 As students, most of us are accustomed to using different Learning Management System (LMS)s. One LMS that many of us used prior to coming to Vanderbilt is Canvas. Canvas has a really great tool that allows you to export your test and assignment dates to calendar softwares, which helps students stay on top of things. One pain point in Vanderbilt's main LMS, Brightspace, is that there's currently no such functionality. We wanted to make the process easier than manually adding every date from every syllabus to your calendar of choice. We then realized that this kind of technology can be used to turn any text agenda into convenient Google Calendar action items!
