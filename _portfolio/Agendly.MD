@@ -67,7 +67,7 @@ We're looking at three main avenues of improvement: First, one initiative we beg
 * typescript
 
 ## Source Code
-<a href="https://github.com/dgzct11/vandy_hacks_2024" class="btn"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span> Github Repository</span></a>
+<a href="https://github.com/dgzct11/vandy_hacks_2024" class="btn repository"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span> Github Repository</span></a>
 
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
