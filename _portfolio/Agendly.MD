@@ -10,7 +10,15 @@ header:
     - label: "Devpost"
       url: "https://devpost.com/software/agendly"
 
-
+categories:
+  - Technology
+  - Coding
+  - Website
+tags:
+  - Nextjs
+  - Openai
+  - Typescript
+meta: "January 12, 2025"
 
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
@@ -25,9 +33,8 @@ gallery:
 
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
 toc_sticky: true
-toc_icon: table
+toc_icon: bars
 ---
 
 ## Demonstration
