@@ -13,15 +13,19 @@ search: false
   }
 
 .page__lead {
-    text-align: center !important; /* Center excerpt */
+    text-align: center !important;
     margin: 0 auto;
-    font-size: 1.2em; /* Optional: Improve readability */
+    font-size: 1.2em; 
 }
 
 .repository{
-    font-size: 1.2em; /* Optional: Improve readability */
+    font-size: 1.2em; 
 }
 
 .page__content {
 text-align: left !important;
+}
+
+figcaption{
+    text-align: center;
 }

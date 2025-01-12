@@ -44,7 +44,7 @@ toc_icon: bars
 ## Demonstration
 {% include video id="NWCOUHfcfTk" provider="youtube" caption="Demo Video" %}
 
-<hr></hr>
+<hr>
 
 {% include gallery caption="Screenshots from Agendly" %}
 
