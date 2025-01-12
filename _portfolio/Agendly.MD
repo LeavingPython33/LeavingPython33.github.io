@@ -21,15 +21,19 @@ tags:
 meta: "January 12, 2025"
 
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
+  - url: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/gallery.jpg
+    image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/gallery.jpg
     alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
+  - url: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/228/datas/gallery.jpg
+    image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/228/datas/gallery.jpg
     alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/240/datas/gallery.jpg
+    image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/240/datas/gallery.jpg
     alt: "placeholder image 3"
+  - url: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/247/datas/gallery.jpg
+    image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/247/datas/gallery.jpg
+    alt: "placeholder image 4"
+
 
 toc: true
 toc_label: "Table of Contents"
@@ -39,6 +43,7 @@ toc_icon: bars
 
 ## Demonstration
 {% include video id="NWCOUHfcfTk" provider="youtube" %}
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 ## Inspiration
 As students, most of us are accustomed to using different Learning Management System (LMS)s. One LMS that many of us used prior to coming to Vanderbilt is Canvas. Canvas has a really great tool that allows you to export your test and assignment dates to calendar softwares, which helps students stay on top of things. One pain point in Vanderbilt's main LMS, Brightspace, is that there's currently no such functionality. We wanted to make the process easier than manually adding every date from every syllabus to your calendar of choice. We then realized that this kind of technology can be used to turn any text agenda into convenient Google Calendar action items!
@@ -70,4 +75,4 @@ We're looking at three main avenues of improvement: First, one initiative we beg
 <a href="https://github.com/dgzct11/vandy_hacks_2024" class="btn repository"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span> Github Repository</span></a>
 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+
