@@ -42,8 +42,11 @@ toc_icon: bars
 ---
 
 ## Demonstration
-{% include video id="NWCOUHfcfTk" provider="youtube" %}
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include video id="NWCOUHfcfTk" provider="youtube" caption="Demo Video" %}
+
+<hr></hr>
+
+{% include gallery caption="Screenshots from Agendly" %}
 
 ## Inspiration
 As students, most of us are accustomed to using different Learning Management System (LMS)s. One LMS that many of us used prior to coming to Vanderbilt is Canvas. Canvas has a really great tool that allows you to export your test and assignment dates to calendar softwares, which helps students stay on top of things. One pain point in Vanderbilt's main LMS, Brightspace, is that there's currently no such functionality. We wanted to make the process easier than manually adding every date from every syllabus to your calendar of choice. We then realized that this kind of technology can be used to turn any text agenda into convenient Google Calendar action items!
