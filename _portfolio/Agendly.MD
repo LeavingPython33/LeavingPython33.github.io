@@ -17,7 +17,7 @@ tags:
   - Nextjs
   - Openai
   - Typescript
-meta: January 12, 2025
+meta_label: "January 12, 2025"
 
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
