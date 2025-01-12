@@ -9,18 +9,16 @@ header:
   actions:
     - label: "Devpost"
       url: "https://devpost.com/software/agendly"
-meta_label: "Info"
-categories_label: "Filed Under"
-tags_label: "Tags"
-share_on_label: "Share this post"
-follow_label: "Follow Me"
+
 categories:
   - Technology
   - Coding
 tags:
-  - Jekyll
-  - Minimal Mistakes
-  - Customization
+  - Nextjs
+  - Openai
+  - Typescript
+meta: January 12, 2025
+
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
@@ -31,10 +29,10 @@ gallery:
   - url: /assets/img/Cyber-Scooter-3.jpg
     image_path: assets/img/Cyber-Scooter-3.jpg
     alt: "placeholder image 3"
+
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-
 ---
 
 ## Demonstration
