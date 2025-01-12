@@ -113,7 +113,6 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/LeavingPython33"
 
-
 # Reading Files
 include:
   - .htaccess
@@ -273,3 +272,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+

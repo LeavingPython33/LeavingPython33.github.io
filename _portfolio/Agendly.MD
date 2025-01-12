@@ -9,6 +9,18 @@ header:
   actions:
     - label: "Devpost"
       url: "https://devpost.com/software/agendly"
+meta_label: "Info"
+categories_label: "Filed Under"
+tags_label: "Tags"
+share_on_label: "Share this post"
+follow_label: "Follow Me"
+categories:
+  - Technology
+  - Coding
+tags:
+  - Jekyll
+  - Minimal Mistakes
+  - Customization
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
