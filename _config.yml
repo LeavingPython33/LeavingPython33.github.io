@@ -112,6 +112,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/LeavingPython33"
+      
+meta_label: "Info"
+categories_label: "Filed Under"
+tags_label: "Tags"
+share_on_label: "Share this post"
+follow_label: "Follow Me"
 
 # Reading Files
 include:
