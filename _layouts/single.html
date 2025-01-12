@@ -51,7 +51,7 @@ layout: default
         {% include page__taxonomy.html %}
         {% include page__date.html %}
         {% if page.meta %}
-          <p class="page__custom-meta page__taxonomy"></i><strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"> ::before </i>{{ page.meta_label | default: "Updated On" }}:</strong> {{ page.meta }}</p>
+          <p class="page__custom-meta page__taxonomy"></i><strong><i class="fas fa-fw fa-calendar-days" aria-hidden="true"></i>{{ page.meta_label | default: "Updated On" }}:</strong> {{ page.meta }}</p>
         {% endif %}
       </footer>
 
