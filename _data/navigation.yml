@@ -2,6 +2,8 @@
 main:
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Video Games"
+    url: /videogames/
   - title: "About"
     url: /_pages/about
   # - title: "Sample Posts"
