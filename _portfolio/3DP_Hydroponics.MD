@@ -1,6 +1,6 @@
 ---
-title: "DIY Aquaponics Systems "
-excerpt: "A combination of a Fish Tank, PVC pipe structures, and custom 3D-Printed parts to create an Ebb and Flow Aquaponics System "
+title: "3D-Printed Hydroponic Tower"
+excerpt: "A 3D-printed tower and a home depot bucket to create a suitable system for growing vegatables"
 header:
   overlay_image: https://gardenculturemagazine.com/wp-content/uploads/2019/08/BODY-IMAGE-AQUAPONICS-diagram.jpg
   overlay_filter: 0.5
@@ -10,14 +10,14 @@ categories:
   - Engineering
   - Gardening
 tags:
-  - CAD
   - 3D-Printing
 meta: "January 12, 2025"
 
 gallery:
-  - image_path: assets/img/Aquaponics.jpg
-  - image_path: assets/img/Aquaponics2.jpg
-  - image_path: assets/img/Aquaponics3.jpg
+  - image_path: assets/img/Tower_Pre.jpg
+  - image_path: assets/img/Tower.jpg
+  - image_path: assets/img/Tower1.jpg
+  - image_path: assets/img/Tower2.jpg
   
 toc: true
 toc_label: "Table of Contents"
@@ -31,8 +31,6 @@ toc_icon: bars
 
 # Science Behind It
 
-# Aquaponics Timeline
+# Hydroponic System Timeline
 
-# CAD Model
-
-# Aquaponics In-Action
+# Hydroponic System In-Action

@@ -1,6 +1,6 @@
 ---
-title: "DIY Aquaponics Systems "
-excerpt: "A combination of a Fish Tank, PVC pipe structures, and custom 3D-Printed parts to create an Ebb and Flow Aquaponics System "
+title: "Syringe Pump Project"
+excerpt: "Using"
 header:
   overlay_image: https://gardenculturemagazine.com/wp-content/uploads/2019/08/BODY-IMAGE-AQUAPONICS-diagram.jpg
   overlay_filter: 0.5
@@ -8,10 +8,12 @@ header:
 
 categories:
   - Engineering
-  - Gardening
+  - Digital Fabrication
 tags:
   - CAD
   - 3D-Printing
+  - Electrical
+  - Mechanical
 meta: "January 12, 2025"
 
 gallery:
