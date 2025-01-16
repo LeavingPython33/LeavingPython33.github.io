@@ -41,7 +41,7 @@ toc_sticky: true
 toc_icon: bars
 ---
 
-## Demonstration
+# Demonstration
 {% include video id="NWCOUHfcfTk" provider="youtube" caption="Demo Video" %}
 
 <hr>
