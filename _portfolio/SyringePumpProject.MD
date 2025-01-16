@@ -74,6 +74,12 @@ Figure 7. Wiring Diagram
 The base of the syringe pump protects the electronic components from any water and humans, by fully covering the arduino, breadboard, and power supply. The top piece of the base is designed to hold the syringe pump mechanism, but also to protect all the electronics from water and fingers. The front piece of the base holds all the buttons for the user and hides all the electronics from the user. The base width is smaller than the T-extrusion so if the syringe has any water leaks, the water will spill outside the base. The base also has vents to protect the power supply from overheating.
 	The syringe pump is programmed by the Arduino IDE, because it’s easier to compile and upload the program into the Arduino Uno than any other programs. The Arduino IDE includes many libraries, which were used to easily program the stepper motor. The library that was used to program the syringe pump is called AccelStepper. In configuring the motor, the direction must be set to high for clockwise motion. We used all available microstepping, resulting in sixteenth-step resolution microstepping. The high microstepping allows the stepper motor to be more precise in pushing out the fluids, which is important in giving the correct dosage. If you want to change the flow rate of the syringe or turn off some of the functions, you can change the following variables in Figure 8.
 
+| Header 1      | Header 2      | Header 3      |
+|---------------|---------------|---------------|
+| Row 1, Col 1  | Row 1, Col 2  | Row 1, Col 3  |
+| Row 2, Col 1  | Row 2, Col 2  | Row 2, Col 3  |
+
+
 | Variable | Data |
 | :--------------- | -------------: |
 | bool extraCred  | True/False if you want the left and right button to be active |
