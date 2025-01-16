@@ -80,15 +80,17 @@ The base of the syringe pump protects the electronic components from any water a
 | Row 2, Col 1  | Row 2, Col 2  | Row 2, Col 3  |
 
 
-| Variable | Data |
-| :--------------- | -------------: |
-| bool extraCred  | True/False if you want the left and right button to be active |
-| const int microStep | The microStep fraction (if it’s 1/16 steps, input 16) |
-| const int diameter    | The diameter of the syringe in mm    |
-| const int leadScrew  | Lead screw travel distance for every full rotation |
-| double flowRate | Desired flow rate in mL/min |
-| bool dynamic    | True/False if you want potentiometer to control flow rate    |
-Figure 8. Important Variables in SyringePumpProgram.ino
+| Variable            | Data                                                          |
+|---------------------| --------------------------------------------------------------|
+| bool extraCred      | True/False if you want the left and right button to be active |
+| const int microStep | The microStep fraction (if it’s 1/16 steps, input 16)         |
+| const int diameter  | The diameter of the syringe in mm                             |
+| const int leadScrew | Lead screw travel distance for every full rotation            |
+| double flowRate     | Desired flow rate in mL/min                                   |
+| bool dynamic        | True/False if you want potentiometer to control flow rate     |
+
+*Figure 8. Important Variables in SyringePumpProgram.ino*
+{: .text-center}
 
 # Operating Limits
 The theoretical max flow rate for any syringe size that can be inputted into the program is 320000 steps per second which is 1.36 * 10^10 mL/min, because the max speed set on the stepper motor is 320000 steps per second. The smallest volume of fluid that can be dispensed is 0 mL because the syringe pump can be slowed down to a flow rate of 0 mL/min with the potentiometer or in the flowRate variable. The smallest flow rate that is non zero is 0.043 mL/min, because the stepper motor’s smallest speed is 1 step per second. The range between the maximum and minimum flow rates should be enough in a medical setting, as you don’t want to dispense too slow or too fast.
