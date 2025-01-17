@@ -30,8 +30,6 @@ toc_icon: bars
 # Introduction
 Syringe pumps are motor-driven devices that are made to precisely and consistently transfer fluids with accuracy. They are used in several different scientific domains, such as biotechnology and pharmaceutical research for precise measurements and reproducible experiments due to their continuous and regulated fluid delivery. Syringe pumps main utility comes from their safe handling of biological materials, as they maintain sterility while swapping syringes. In addition, they precisely pump fluids of high viscosities while preserving a continuous flow. These pumps typically include a motor to power the mechanism, a syringe holder to safely hold the fluid, and a push block to enable the plunger to move smoothly and under control. These parts work together as the fundamental building blocks of a syringe pump, giving researchers and practitioners more precision and control over their experiments.
 
-# Syringe Pump CAD
-
 # Design Constraints
 The goal of this project is to design a functional syringe pump while meeting several design constraints. First, the pump must be driven by a stepper motor coupled to a lead screw, and the flow rate (in mL/min) should be easily adjustable through an Arduino program. This includes using global variables for the flow rate and syringe pump diameter, allowing for decimal values. The pump needs to be compatible with syringes of different diameters (20 mL to 10 mL), with tool-free switching between syringes. The motor mounts should be printed using ABS. The outside of the stepper motor can reach up to 80 C and ABS does not deflect until 100 C. Additionally, the syringe should be supported at both ends to prevent sagging during operation.
 
@@ -90,9 +88,11 @@ The base of the syringe pump protects the electronic components from any water a
 The theoretical max flow rate for any syringe size that can be inputted into the program is 320000 steps per second which is 1.36 * 10^10 mL/min, because the max speed set on the stepper motor is 320000 steps per second. The smallest volume of fluid that can be dispensed is 0 mL because the syringe pump can be slowed down to a flow rate of 0 mL/min with the potentiometer or in the flowRate variable. The smallest flow rate that is non zero is 0.043 mL/min, because the stepper motor’s smallest speed is 1 step per second. The range between the maximum and minimum flow rates should be enough in a medical setting, as you don’t want to dispense too slow or too fast.
 
 # Calculations in Converting Volumetric Flow Rate to Steps
-For the syringe project, the desired flow rate needs to be converted from mL/min to steps per second for the stepper motor to use. The equation to turn flow rate into steps per second is:	flowRate (mL/min)* 1min60s*1000mm31mL*1r2(mm2)*1revleadScrew(mm)*200 * microStep (steps)1rev=stepPerSec (st/s)  
+For the syringe project, the desired flow rate needs to be converted from mL/min to steps per second for the stepper motor to use. The equation to turn flow rate into steps per second is:	
 
-## Example:
+flowRate (mL/min)* 1min60s*1000mm31mL*1r2(mm2)*1revleadScrew(mm)*200 * microStep (steps)1rev=stepPerSec (st/s)  
+
+## Example
 1. Lets input a flow rate of 1 mL/min, the diameter of the syringe to 19mm, no micro stepping, and 8mm lead screw
 2. Set the flow rate to seconds so divide the flow rate by 60 seconds = 1/60 (ml/s)
 3. Multiply the flow rate by 1000mm^3/1mL, so the flow rate in terms of mm^3 is = 1000/60 (mm^3/s)
@@ -125,6 +125,38 @@ In conclusion, this project provided the opportunity to determine whether design
 
 Appendix A.
 # Arduino Code (SyringPumpProgram.ino)
-These are the following variables of the program:
+<a href="https://github.com/LeavingPython33/Syringe-Pump-Project" class="btn repository"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span> Github Repository</span></a>
 
+## The following variables of the program
+
+| **Variable**         | **Data**                                                        |
+|-----------------------|----------------------------------------------------------------|
+| **bool extraCred**    | True/False if you want the left and right button to be active  |
+| **bool empty**        | True if the syringe is empty, else false                      |
+| **const int limitSwitchPin** | The limit switch pin number                              |
+| **const int buttonPin**       | The On/Off button pin number                           |
+| **const int potPin**          | The potentiometer pin number                           |
+| **const int rgbPin[]**        | The LED RGB pin numbers (array)                        |
+| **const int leftButtonPin**   | The left button pin number                             |
+| **const int rightButtonPin**  | The right button pin number                            |
+| **const int microStep**       | The microStep fraction (e.g., input 16 for 1/16 steps) |
+| **const int diameter**        | The diameter of the syringe in mm                     |
+| **const int leadScrew**       | Lead screw travel distance for every full rotation    |
+| **double flowRate**           | Desired flow rate in mL/min                           |
+| **double syringeSpeed**       | The syringe’s speed in mm/s                           |
+| **double stepPerSec**         | Syringe’s speed converted to steps/s                  |
+| **int prevPotVal**            | Tracks the potentiometer value                        |
+| **bool dynamic**              | True/False if you want the potentiometer to control flow rate |
+
+## The following functions of the program
+
+| **Function**             | **Description**                                                  |
+|--------------------------|------------------------------------------------------------------|
+| **void setup()**         | Sets up the pin modes for switches and LEDs. Initializes the stepper motor with a set speed. |
+| **void loop()**          | Runs the overall program, tracking switch values and responding accordingly. |
+| **void computeSteps(double flow)** | Computes the steps per second based on the given flow rate.           |
+| **void writeLed(int rgb[])** | Writes the RGB pins with values from the `rgb[]` array.                      |
+
+# Syringe Pump CAD
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4a2f3d997ef4feef4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 # Drawings
