@@ -17,7 +17,6 @@ meta: "January 12, 2025"
 gallery:
   - image_path: assets/img/Aquaponics.jpg
   - image_path: assets/img/Aquaponics2.jpg
-  - image_path: assets/img/Aquaponics3.jpg
   
 toc: true
 toc_label: "Table of Contents"
