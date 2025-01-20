@@ -1,8 +1,8 @@
 ---
 title: "Syringe Pump Project"
-excerpt: "Using"
+excerpt: "A Project for our DF 2100 class at Vanderbilt University that precisely controls the dispense of liquids for medical uses
 header:
-  overlay_image: https://gardenculturemagazine.com/wp-content/uploads/2019/08/BODY-IMAGE-AQUAPONICS-diagram.jpg
+  overlay_image: /assets/img/syringe/image5.png
   overlay_filter: 0.5
   teaser: /assets/img/syringe/image4.png
 
@@ -20,7 +20,9 @@ gallery:
   - image_path: /assets/img/syringe/image3.png
   - image_path: /assets/img/syringe/image9.png
   - image_path: /assets/img/syringe/image10.png
+  - image_path: /assets/img/syringe/image19.png
   - image_path: /assets/img/syringe/image21.png
+  - image_path: /assets/img/syringe/image15.png
   
 toc: true
 toc_label: "Table of Contents"
@@ -30,6 +32,49 @@ toc_icon: bars
 
 # Introduction
 Syringe pumps are motor-driven devices that are made to precisely and consistently transfer fluids with accuracy. They are used in several different scientific domains, such as biotechnology and pharmaceutical research for precise measurements and reproducible experiments due to their continuous and regulated fluid delivery. Syringe pumps main utility comes from their safe handling of biological materials, as they maintain sterility while swapping syringes. In addition, they precisely pump fluids of high viscosities while preserving a continuous flow. These pumps typically include a motor to power the mechanism, a syringe holder to safely hold the fluid, and a push block to enable the plunger to move smoothly and under control. These parts work together as the fundamental building blocks of a syringe pump, giving researchers and practitioners more precision and control over their experiments.
+
+# Parts Required
+
+## Off-the-shelf parts
+
+| Part Name                        | Amount                            |
+|----------------------------------|-----------------------------------|
+| V-Slot 20x40x350                | 1                                 |
+| NEMA-17-Motor                   | 1                                 |
+| Coupler                         | 1                                 |
+| M3x6mm Bolt                     | 4                                 |
+| Lead Screw TR8x8x250mm          | 1                                 |
+| M3x10mm Bolt                    | 4                                 |
+| M5x8mm Bolt                     | 10                                |
+| M5 Tee Nut                      | 10                                |
+| Linear Rod 8mmx200mm            | 1                                 |
+| LM8UU Linear Bearing            | 1                                 |
+| Nut tr8x8-4                     | 1                                 |
+| M3x6mm Bolt                     | 4                                 |
+| F688ZZ Flanged Ball Bearing     | 2                                 |
+| Lock Collar for Lead Screw      | 2                                 |
+| Lock Collar for Linear Rod      | 2                                 |
+| 91290A113 Alloy Steel Socket Head Screw  | 2                                 |
+| Arduino Uno                     | 1                                 |
+| Breadboard                      | 1                                 |
+| rq-65 Power Supply              | 1                                 |
+| Potentiometer                   | 1                                 |
+| LED 10mm                        | 1                                 |
+| 10mm Latching Push Button Switch| 1                                 |
+
+
+## 3D-printed parts
+
+| Part Name                | Amount |
+|--------------------------|--------|
+| Motor Mount              | 1      |
+| Carriage                 | 1      |
+| End Support Plunger End  | 1      |
+| End Support Nozzle End   | 1      |
+| Base                     | 1      |
+| Top                      | 1      |
+| Front                    | 1      |
+
 
 # Design Constraints
 The goal of this project is to design a functional syringe pump while meeting several design constraints. First, the pump must be driven by a stepper motor coupled to a lead screw, and the flow rate (in mL/min) should be easily adjustable through an Arduino program. This includes using global variables for the flow rate and syringe pump diameter, allowing for decimal values. The pump needs to be compatible with syringes of different diameters (20 mL to 10 mL), with tool-free switching between syringes. The motor mounts should be printed using ABS. The outside of the stepper motor can reach up to 80 C and ABS does not deflect until 100 C. Additionally, the syringe should be supported at both ends to prevent sagging during operation.
@@ -55,24 +100,24 @@ Additional features such as motor movement direction control buttons and a poten
 
 <img src="/assets/img/syringe/image13.png" alt="Syringe Pump CAD rendering" style="width:500px;" class="figures"/>
 
-*Figure 1. Syringe Pump CAD rendering* {: .text-center}
+*Figure 1. Syringe Pump CAD rendering*
 
 <img src="/assets/img/syringe/image4.png" alt="Syringe Pump Physical Model" style="width:500px;" class="figures"/>
 
-*Figure 2. Syringe Pump Physical Model* {: .text-center}
+*Figure 2. Syringe Pump Physical Model* 
 
 The system utilizes a stepper motor coupled to a threaded rod in order to pump fluid in and out of the syringe. The motor is fastened to a 3D printed ABS motor mount with four M4 bolts which in turn is also bolted down to the 2040 aluminum extrusion. The motor setup is seen below in Figure 3.
 
 <img src="/assets/img/syringe/image6.png" alt="Motor setup" style="width:500px;" class="figures"/>
 
-*Figure 3. Motor setup* {: .text-center}
+*Figure 3. Motor setup*
 
 The syringe is set up across three components along the actuator: the carriage, the plunger holder, and the nozzle support. All three parts are 3D PLA parts. The plunger holder and nozzle support are secured to the aluminum extrusion, while the carriage remains unfastened as shown below in Figure 4. 
 
 <img src="/assets/img/syringe/image7.png" alt="Syringe Setup" style="width:250px;" class="figures"/>
 <img src="/assets/img/syringe/image16.png" alt="Syringe Setup" style="width:250px;" class="figures"/>
 
-*Figure 4. Syringe Setup* {: .text-center}
+*Figure 4. Syringe Setup*
 
 A lead screw with an 8mm lead is embedded into the carriage while bearings are placed in the plunger holder and nozzle support to facilitate linear actuation when the motor turns. A linear rod is sent through all three parts to stabilize the carriage with collars placed to prevent the rod from sliding. The carriage has an inlet cut out for the plunger flange to grip the syringe. Similarly, the plunger holder has an inlet to grip the barrel flange and the nozzle holder has a concave opening to prevent the nozzle from sagging. There is also a limit switch embedded into the plunger holder that closes when the syringe is empty. This occurs when the carriage reaches a certain distance from the plunger holder.
 
@@ -81,17 +126,16 @@ This design is compatible for multiple diameter syringes, as the carriage includ
 <img src="/assets/img/syringe/image11.png" alt="Dual Syringe Setup" style="width:250px;" class="figures"/>
 <img src="/assets/img/syringe/image14.png" alt="Dual Syringe Setup" style="width:250px;" class="figures"/>
 
-*Figure 5. Dual Syringe Setup* {: .text-center}
-
+*Figure 5. Dual Syringe Setup* 
 The button on the syringe pump acts as a start and stop switch. When the button is not pressed, the LED will be yellow, indicating that the pump is in a paused state. Pressing the button turns the LED green, signaling that the pump is active and in a "go" state. Activation of the limit switch turns the LED red and sends a signal to the Arduino, indicating that the syringe has fully pumped out. The red LED also signifies that the syringe is empty and in a stopped mode. Turning the potentiometer counterclockwise increases the pumping speed, and vice versa. Pressing the momentary button on the left causes the syringe to retract, while pressing the button on the right causes the syringe to extrude. The full user interface is shown below in Figure 6 with the wiring diagram in Figure 7.
 
 <img src="/assets/img/syringe/image22.png" alt="User interface" style="width:500px;" class="figures"/>
 
-*Figure 6. User interface* {: .text-center}
+*Figure 6. User interface* 
 
-<img src="/assets/img/syringe/image18.png" alt="Wiring Diagram" style="width:500px;" class="figures"/>
+<img src="/assets/img/syringe/image18.jpg" alt="Wiring Diagram" style="width:500px;" class="figures"/>
 
-*Figure 7. Wiring Diagram* {: .text-center} 
+*Figure 7. Wiring Diagram* 
 
 The base of the syringe pump protects the electronic components from any water and humans, by fully covering the arduino, breadboard, and power supply. The top piece of the base is designed to hold the syringe pump mechanism, but also to protect all the electronics from water and fingers. The front piece of the base holds all the buttons for the user and hides all the electronics from the user. The base width is smaller than the T-extrusion so if the syringe has any water leaks, the water will spill outside the base. The base also has vents to protect the power supply from overheating.
 
@@ -126,22 +170,6 @@ flowRate (mL/min)* 1min60s*1000mm31mL*1r2(mm2)*1revleadScrew(mm)*200 * microStep
 6. Take the speed and divide it by the lead screw (8mm) to get the amount of revolution it needs to take = 7.35e-3 rev/s
 7. Take the distance travel per full rotation and multiply it by the amount of steps it takes for the stepper motor make a full rotation including microstepping will get us  7.35e-3 rev/s * 200 * 1 = 1.47 steps/s
 8. The program will set the speed of the stepper motor to 1.47 Steps/s to produce 1 mL/min in a syringe with a diameter of 19mm
-
-# 3D Printing Issues
-Several issues were encountered while 3D printing parts of the syringe pump. The first issue was printing toppers that would hold the syringe to go on top of the existing supports for testing. Determining the tolerance was difficult as a topper that was too small would either break the sides or require permanent alterations with a heat gun to expand the inserts which did not follow the design constraints. Determining the print orientation was also difficult as placing it on the bottom side made it hard to cleanly remove supports while a cleaner finish was desired on the syringe profiles. The failed parts can be seen in Figure 9 below. 
-
-Figure 9. Toppers with Too Small Tolerances 
-Expanding the tolerance any more resulted in the setup becoming wobbly and an insecure setup as seen in Figure 10 below. 
-
-Figure 10. Unstable Setup due to High Tolerance
-To solve this, the syringe holders were embedded into the existing setup. This eliminated the interfacing between the toppers and the existing setup bypassing the need for support placements, awkward print orientations, and strict fitting tolerances as seen in the full setup in Figure 11 below.
-
-Figure 11. Embedded Supports
-Another issue that was encountered was printing the decal onto our enclosure. Using the text tool in the sketch toolbox, Resin Rebels was engraved onto the top. This however resulted in floating pieces in the ‘R’s and ‘B’. To solve this issue, each floating piece was bridged with an extra material in the original CAD as shown in Figures 12 and 13 below. In addition to functionality, the name plate after bridging the text had more of a sleek appeal. 
-
-Figure 12. Original Name Plate
-
-Figure 13. Post Bridge Name Plate
 
 # Conclusion
 In conclusion, this project provided the opportunity to determine whether designing, manufacturing, wiring, and coding a syringe pump from scratch is a cost-effective alternative to commercial products, while having comparable performance. Throughout the project, there were several different challenges that were encountered and addressed. Manufacturing wise, there were many issues that were encountered whether it was a flipped sketch or a wrong dimension, which required the part to be printed again. This delay in the timeline pushed back testing code and electronics. Software wise, there were a lot of small mistakes from putting the wrong pin numbers, incorrect if statements, or not executing the right function. The mistake in the software had to go through thorough testing, removing time off from the paper. Looking back on the project, it was key that the team tested far in advance to prevent work out any kinks. Future improvement could include customizing the length of the aluminum base, threaded rod, and linear rod for a streamlined design. Overall, the project demonstrated a valid proof of concept with the given materials and displayed the potential of a budget friendly and high performance syringe pump. 
