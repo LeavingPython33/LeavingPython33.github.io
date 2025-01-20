@@ -14,13 +14,16 @@ feature_row:
     alt: "Agendly"
     title: "Agendly"
     excerpt: "Using AI to streamline adding events from syllabi, agendas, and schedules to your calendar."
+    height: 150
   - image_path: /assets/img/syringe/image4.png
     alt: "Syringe Pump Project"
     title: "Syringe Pump Project"
     excerpt: "A Project for our DF 2100 class at Vanderbilt University that precisely controls the dispense of liquids for medical uses"
+    height: 150
   - image_path: https://vivid-cow-9924242169.media.strapiapp.com/cloudflare_bb657624dc.webp
     title: "HomeLab (Home server)"
     excerpt: "Repurposed my old desktop into a homelab for the purpose of hosting my different services"
+    height: 150
 ---
 
 {% include feature_row %}
