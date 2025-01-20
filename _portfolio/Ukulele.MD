@@ -1,6 +1,6 @@
 ---
 title: "Ukulele"
-excerpt: "CADed out a ukulele for it to be laser cut and assembled"
+excerpt: "CAD out a ukulele for it to be laser cut and assembled"
 header:
   overlay_image: /assets/img/Ukulele.png
 
