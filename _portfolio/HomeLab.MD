@@ -2,7 +2,7 @@
 title: "HomeLab (Home server)"
 excerpt: "Repurposed my old desktop into a homelab for the purpose of hosting my different services"
 header:
-  overlay_image: https://gardenculturemagazine.com/wp-content/uploads/2019/08/BODY-IMAGE-AQUAPONICS-diagram.jpg
+  overlay_image: https://logovectorseek.com/wp-content/uploads/2021/10/proxmox-server-solutions-gmbh-logo-vector.png
   overlay_filter: 0.5
   teaser: /assets/img/Aquaponics.jpg
 
