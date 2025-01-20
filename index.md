@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "My name is Alfred Tapia, currently studying for a bachelors in Computer Science at Vanderbilt University.
+excerpt: "My name is Alfred Tapia, currently studying for a bachelors in Computer Science at Vanderbilt University."
 feature_row:
   - image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/medium.jpg
     alt: "Agendly"
