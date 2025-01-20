@@ -4,7 +4,7 @@ excerpt: "Using"
 header:
   overlay_image: https://gardenculturemagazine.com/wp-content/uploads/2019/08/BODY-IMAGE-AQUAPONICS-diagram.jpg
   overlay_filter: 0.5
-  teaser: /assets/img/Aquaponics.jpg
+  teaser: /assets/img/syringe/image4.png
 
 categories:
   - Engineering
@@ -17,9 +17,10 @@ tags:
 meta: "January 12, 2025"
 
 gallery:
-  - image_path: assets/img/Aquaponics.jpg
-  - image_path: assets/img/Aquaponics2.jpg
-  - image_path: assets/img/Aquaponics3.jpg
+  - image_path: /assets/img/syringe/image3.png
+  - image_path: /assets/img/syringe/image9.png
+  - image_path: /assets/img/syringe/image10.png
+  - image_path: /assets/img/syringe/image21.png
   
 toc: true
 toc_label: "Table of Contents"
@@ -51,26 +52,50 @@ Additional features such as motor movement direction control buttons and a poten
 9. If you want to change the flow rate go in the .ino file and change the flowRate global variable or you can manually change the flow rate with the potentiometer on the front
 
 # Design Coverage
-Figure 1. Syringe Pump CAD rendering
 
-Figure 2. Syringe Pump Physical Model
-	The system utilizes a stepper motor coupled to a threaded rod in order to pump fluid in and out of the syringe. The motor is fastened to a 3D printed ABS motor mount with four M4 bolts which in turn is also bolted down to the 2040 aluminum extrusion. The motor setup is seen below in Figure 3.
+<img src="/assets/img/syringe/image13.png" alt="Syringe Pump CAD rendering" style="width:500px;" class="figures"/>
 
-Figure 3. Motor setup
+*Figure 1. Syringe Pump CAD rendering* {: .text-center}
+
+<img src="/assets/img/syringe/image4.png" alt="Syringe Pump Physical Model" style="width:500px;" class="figures"/>
+
+*Figure 2. Syringe Pump Physical Model* {: .text-center}
+
+The system utilizes a stepper motor coupled to a threaded rod in order to pump fluid in and out of the syringe. The motor is fastened to a 3D printed ABS motor mount with four M4 bolts which in turn is also bolted down to the 2040 aluminum extrusion. The motor setup is seen below in Figure 3.
+
+<img src="/assets/img/syringe/image6.png" alt="Motor setup" style="width:500px;" class="figures"/>
+
+*Figure 3. Motor setup* {: .text-center}
+
 The syringe is set up across three components along the actuator: the carriage, the plunger holder, and the nozzle support. All three parts are 3D PLA parts. The plunger holder and nozzle support are secured to the aluminum extrusion, while the carriage remains unfastened as shown below in Figure 4. 
 
-Figure 4. Syringe Setup 
+<img src="/assets/img/syringe/image7.png" alt="Syringe Setup" style="width:250px;" class="figures"/>
+<img src="/assets/img/syringe/image16.png" alt="Syringe Setup" style="width:250px;" class="figures"/>
+
+*Figure 4. Syringe Setup* {: .text-center}
+
 A lead screw with an 8mm lead is embedded into the carriage while bearings are placed in the plunger holder and nozzle support to facilitate linear actuation when the motor turns. A linear rod is sent through all three parts to stabilize the carriage with collars placed to prevent the rod from sliding. The carriage has an inlet cut out for the plunger flange to grip the syringe. Similarly, the plunger holder has an inlet to grip the barrel flange and the nozzle holder has a concave opening to prevent the nozzle from sagging. There is also a limit switch embedded into the plunger holder that closes when the syringe is empty. This occurs when the carriage reaches a certain distance from the plunger holder.
+
 This design is compatible for multiple diameter syringes, as the carriage includes an opening larger than the plungers but smaller than the plunger flanges. The plunger holder follows a similar approach, providing an opening sufficiently large for the barrels while small enough to secure the flange. This accommodation can be seen in Figure 5 below.
 
-Figure 5. Dual Syringe Setup
+<img src="/assets/img/syringe/image11.png" alt="Dual Syringe Setup" style="width:250px;" class="figures"/>
+<img src="/assets/img/syringe/image14.png" alt="Dual Syringe Setup" style="width:250px;" class="figures"/>
+
+*Figure 5. Dual Syringe Setup* {: .text-center}
+
 The button on the syringe pump acts as a start and stop switch. When the button is not pressed, the LED will be yellow, indicating that the pump is in a paused state. Pressing the button turns the LED green, signaling that the pump is active and in a "go" state. Activation of the limit switch turns the LED red and sends a signal to the Arduino, indicating that the syringe has fully pumped out. The red LED also signifies that the syringe is empty and in a stopped mode. Turning the potentiometer counterclockwise increases the pumping speed, and vice versa. Pressing the momentary button on the left causes the syringe to retract, while pressing the button on the right causes the syringe to extrude. The full user interface is shown below in Figure 6 with the wiring diagram in Figure 7.
 
-Figure 6. User interface
+<img src="/assets/img/syringe/image22.png" alt="User interface" style="width:500px;" class="figures"/>
 
-Figure 7. Wiring Diagram
+*Figure 6. User interface* {: .text-center}
+
+<img src="/assets/img/syringe/image18.png" alt="Wiring Diagram" style="width:500px;" class="figures"/>
+
+*Figure 7. Wiring Diagram* {: .text-center} 
+
 The base of the syringe pump protects the electronic components from any water and humans, by fully covering the arduino, breadboard, and power supply. The top piece of the base is designed to hold the syringe pump mechanism, but also to protect all the electronics from water and fingers. The front piece of the base holds all the buttons for the user and hides all the electronics from the user. The base width is smaller than the T-extrusion so if the syringe has any water leaks, the water will spill outside the base. The base also has vents to protect the power supply from overheating.
-	The syringe pump is programmed by the Arduino IDE, because it’s easier to compile and upload the program into the Arduino Uno than any other programs. The Arduino IDE includes many libraries, which were used to easily program the stepper motor. The library that was used to program the syringe pump is called AccelStepper. In configuring the motor, the direction must be set to high for clockwise motion. We used all available microstepping, resulting in sixteenth-step resolution microstepping. The high microstepping allows the stepper motor to be more precise in pushing out the fluids, which is important in giving the correct dosage. If you want to change the flow rate of the syringe or turn off some of the functions, you can change the following variables in Figure 8.
+
+The syringe pump is programmed by the Arduino IDE, because it’s easier to compile and upload the program into the Arduino Uno than any other programs. The Arduino IDE includes many libraries, which were used to easily program the stepper motor. The library that was used to program the syringe pump is called AccelStepper. In configuring the motor, the direction must be set to high for clockwise motion. We used all available microstepping, resulting in sixteenth-step resolution microstepping. The high microstepping allows the stepper motor to be more precise in pushing out the fluids, which is important in giving the correct dosage. If you want to change the flow rate of the syringe or turn off some of the functions, you can change the following variables in Figure 8.
 
 | Variable            | Data                                                          |
 |---------------------| --------------------------------------------------------------|
@@ -159,4 +184,6 @@ Appendix A.
 
 # Syringe Pump CAD
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4a2f3d997ef4feef4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 # Drawings
+{% include gallery caption="Syringe Pump Drawings" %}

@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "https://avatars.githubusercontent.com/u/138741668?height=180&v=4&width=180"
-  bio              : "Someone"
+  bio              : "A 2nd Year Undergraduate at Vanderbilt University"
   location         : "Chicago, IL"
   links:
     - label: "GitHub"

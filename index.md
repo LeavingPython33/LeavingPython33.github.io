@@ -8,12 +8,12 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "My name is Alfred Tapia, currently studying for a bachelors in Computer Science at Vanderbilt University. My area of expertise is web development, with an emphasis on front-end development"
+excerpt: "My name is Alfred Tapia, currently studying for a bachelors in Computer Science at Vanderbilt University.
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
+  - image_path: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/medium.jpg
+    alt: "Agendly"
+    title: "Agendly"
+    excerpt: "Using AI to streamline adding events from syllabi, agendas, and schedules to your calendar."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
     title: "DIY Plasma Cutter"

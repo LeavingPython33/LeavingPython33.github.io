@@ -6,19 +6,34 @@ title: "About Alfred Tapia"
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+I have a diverse set of skills ranging from information technology to 3D design and manufacturing. However, my primary area of expertise is web development, with a focus on front-end development.
 
 * Vanderbilt University
   * BS Computer Science
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+I have expereince with the following technologies to create responsive websites, programs, or video games:
 
+### Technologies
+* Nextjs
+* React
+* C++
+* Java
+* Python
+* GDScript
+* HTML
+* CSS
+
+I have experience with a variety of programs to create 3D models for art and planning out project:
+
+### Programs
+* Fusion360
+* Blender
+
+I have experience in 3D-printing and manufacturing to bring my 3D models to the real world:
+
+### Tools
 * Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+* PVC Welding
+* Laser Cutting ????
