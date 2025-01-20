@@ -4,7 +4,7 @@ excerpt: "Repurposed my old desktop into a homelab for the purpose of hosting my
 header:
   overlay_image: https://logovectorseek.com/wp-content/uploads/2021/10/proxmox-server-solutions-gmbh-logo-vector.png
   overlay_filter: 0.5
-  teaser: https://www.servethehome.com/wp-content/uploads/2017/02/cloudflare-logo-black-sth-400x300.png
+  teaser: https://vivid-cow-9924242169.media.strapiapp.com/cloudflare_bb657624dc.webp
 
 categories:
   - Computer

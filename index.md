@@ -14,13 +14,13 @@ feature_row:
     alt: "Agendly"
     title: "Agendly"
     excerpt: "Using AI to streamline adding events from syllabi, agendas, and schedules to your calendar."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: /assets/img/syringe/image4.png
+    alt: "Syringe Pump Project"
+    title: "Syringe Pump Project"
+    excerpt: "A Project for our DF 2100 class at Vanderbilt University that precisely controls the dispense of liquids for medical uses"
+  - image_path: https://vivid-cow-9924242169.media.strapiapp.com/cloudflare_bb657624dc.webp
+    title: "HomeLab (Home server)"
+    excerpt: "Repurposed my old desktop into a homelab for the purpose of hosting my different services"
 ---
 
 {% include feature_row %}
