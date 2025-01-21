@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump Project"
-excerpt: "A Project for our DF 2100 class at Vanderbilt University that precisely controls the dispense of liquids for medical uses"
+excerpt: "A project for our DF 2100 class at Vanderbilt University that focuses on precisely controlling the dispensing of liquids for medical uses"
 header:
   overlay_image: "/assets/img/syringe/image5.jpg"
   overlay_filter: 0.5
