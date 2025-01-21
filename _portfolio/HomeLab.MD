@@ -59,7 +59,9 @@ There isn't any one way in creating VMs, as there's a lot of OS that need differ
 If you aren't in one place at all times, you might want your home server accessible anywhere. However, exposing your local network to the internet can allow hackers to have access to your local network so we have to use reverse proxy services like Nginx and Cloudflare to protect yourself.
 
 This YouTube Video shows how to open a reverse proxy with Cloudflare:
+
 {% include video id="ey4u7OUAF3c&t=277s" provider="youtube" caption="NetworkChuck Tutorial in Setting Up A Reverse Proxy" %}
+
 But with anything involving exposing your network there comes with a risk, SO DO IT AT YOUR OWN RISK!!
 
 # HomeLab Dashboards
