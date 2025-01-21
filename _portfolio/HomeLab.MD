@@ -60,7 +60,7 @@ If you aren't in one place at all times, you might want your home server accessi
 
 This YouTube Video shows how to open a reverse proxy with Cloudflare:
 
-{% include video id="ey4u7OUAF3c&t=277s" provider="youtube" caption="NetworkChuck Tutorial in Setting Up A Reverse Proxy" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ey4u7OUAF3c?si=vu0EMVXzkQwmT9Bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 But with anything involving exposing your network there comes with a risk, SO DO IT AT YOUR OWN RISK!!
 
