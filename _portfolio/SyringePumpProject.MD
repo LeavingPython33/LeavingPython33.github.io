@@ -23,7 +23,7 @@ gallery:
   - image_path: /assets/img/syringe/image19.png
   - image_path: /assets/img/syringe/image21.png
   - image_path: /assets/img/syringe/image15.png
-  
+
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
@@ -52,15 +52,16 @@ Syringe pumps are motor-driven devices that are made to precisely and consistent
 | Nut tr8x8-4                     | 1                                 |
 | M3x6mm Bolt                     | 4                                 |
 | F688ZZ Flanged Ball Bearing     | 2                                 |
-| Lock Collar for Lead Screw      | 2                                 |
-| Lock Collar for Linear Rod      | 2                                 |
-| 91290A113 Alloy Steel Socket Head Screw  | 2                                 |
+| 8mm Lock Collar for Lead Screw      | 2                             |
+| 8mm Lock Collar for Linear Rod      | 2                             |
+| 91290A113 Alloy Steel Socket Head Screw  | 2                        |
 | Arduino Uno                     | 1                                 |
 | Breadboard                      | 1                                 |
 | rq-65 Power Supply              | 1                                 |
 | Potentiometer                   | 1                                 |
 | LED 10mm                        | 1                                 |
 | 10mm Latching Push Button Switch| 1                                 |
+| Wires for Breadboard            | ---                               |
 
 
 ## 3D-printed parts
