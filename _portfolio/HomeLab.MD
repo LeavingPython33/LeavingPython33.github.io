@@ -76,7 +76,7 @@ This is the following information you'll find in your HyperVisor Dashboard:
 
 The information will help you diagnose or find any problem in your server. However, if you have a lot of different services with different ips and site name you'll have to create your own dashboard to easily navigate all of them. For my home server I use Homer to create a static webpage to easily access my home server services.
 
-<img src="/assets/img/syringe/image6.png" alt="Motor setup" style="width:500px;" class="figures"/>
+<img src="/assets/img/syringe/Homer.png" alt="Motor setup" style="width:500px;" class="figures"/>
 
 *My Homer Dashboard*
 
