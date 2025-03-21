@@ -128,6 +128,7 @@ This design is compatible for multiple diameter syringes, as the carriage includ
 <img src="/assets/img/syringe/image14.png" alt="Dual Syringe Setup" style="width:250px;" class="figures"/>
 
 *Figure 5. Dual Syringe Setup* 
+
 The button on the syringe pump acts as a start and stop switch. When the button is not pressed, the LED will be yellow, indicating that the pump is in a paused state. Pressing the button turns the LED green, signaling that the pump is active and in a "go" state. Activation of the limit switch turns the LED red and sends a signal to the Arduino, indicating that the syringe has fully pumped out. The red LED also signifies that the syringe is empty and in a stopped mode. Turning the potentiometer counterclockwise increases the pumping speed, and vice versa. Pressing the momentary button on the left causes the syringe to retract, while pressing the button on the right causes the syringe to extrude. The full user interface is shown below in Figure 6 with the wiring diagram in Figure 7.
 
 <img src="/assets/img/syringe/image22.png" alt="User interface" style="width:500px;" class="figures"/>
