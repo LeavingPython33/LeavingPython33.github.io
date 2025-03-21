@@ -137,13 +137,14 @@ Placeholder
 > * Broad Width: 19mm
 > * Pinch Width: 0.6mm
 > * Three Outlet Ports in a triangle formation with varying paths and width
+> * Outlet Path Length: about 19mm
 > * Two Inlet Ports with a width of 1.5mm
 > 
-> My chosen geometry is conductive to sorting, as it has a big ratio between the broad and pinch width promoting better PFF sorting. The outlets have varying paths and width to stop the issue of flow imbalances between the outlets. However, all the paths have the same path length which is about 19mm. The outlet width is determine by the size of the particle, as the big particle is about 2.5 times bigger than the smaller particle, so the outlet for the big particle should be 2.5 times bigger.
+> My chosen geometry is conducive to sorting, as it has a large ratio between the broad and pinch widths, promoting better PFF sorting. The outlets have varying paths and widths to prevent flow imbalances between them and stop backflow. Since the lengths of the outlets are the same, I had to change the outlet channel width to change the flow rate. The outlet width is determined by the size of the particles. Since the larger particles are about 2.5 times bigger than the smaller particles, the outlet for the larger particles should be 2.5 times wider.
 
 > **Based on the results of testing, could you implement any future changes to improve sorting?**
 >
-> Based on my results of testing, I would make the beginning of the broad width shorter to prevent eddy currents. In my testing there was signs of eddy currents as some small particles kept moving around in circles which slowed down the sorting process. Unfortunately the testing for my PFF ended short, as there was a leak between the glass slide and cast.
+> Based on the testing results, I would make the beginning of the broad width shorter to prevent eddy currents. In my testing, there were signs of eddy currents as some small particles kept moving around in circles, which slowed down the sorting process. Unfortunately, the testing for my PFF ended short, as there was a leak between the glass slide and cast.
 
 > **Did you attempt the bonus opportunity? If so, describe your approach and success.**
 >
