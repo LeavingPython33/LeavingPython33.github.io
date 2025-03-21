@@ -130,7 +130,7 @@ Placeholder
 
 > **What are hypothetical applications of your microfluidic mixer or sorter?**
 > 
-> My microfluidic sorter can be used to sort blood sample for analysis or uses of specific cells. Certain cells in the blood stream can be used for therapies for people who lack in a specific cell type like stem cell therapy.
+> My microfluidic sorter could be used to sort blood samples for analysis or use of specific cells. Certain cells in the bloodstream can be used for therapies for people who lack a specific cell type, like stem cell therapy.
 
 > **Why is your geometry conducive to sorting? Discuss specific dimensions (pinch width, outlet width, location of ports, etc.)**
 > My Chosen Geometry:
