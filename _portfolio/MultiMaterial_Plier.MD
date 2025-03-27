@@ -36,7 +36,7 @@ Print-in-place designs have been used in various applications, including:
 
 For a succesful Print-in-place job, you have to carefully consider the material selected to ensure smooth movement, durability, and minimal post-processing. The best materials depends on the type of mechanism (hinges, gears, springs, etc.) and whether you're using a single material or multi-material printing.
 
-Most Popular Material for FDM
+Most Popular Material for FFF
 1. PLA (Polylactic Acid)
     * ✅ Pros: Easy to print, rigid, good for gears and interlocking parts
     * ❌ Cons: Brittle over time, poor flexibility (can snap on thin hinges)
@@ -56,6 +56,8 @@ Most Popular Material for FDM
 
 # Embedded CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d1010e3cb984da3e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<br>
 
 # Design & Iterative 
 
@@ -97,7 +99,7 @@ The pliers feature an integrated a hinge spring, allowing the jaws to return to 
 
 
 # Print Settings
-* Printer: FDM (Voron)
+* Printer: FFF (Voron)
 * Nozzle: 0.6
 
 ## Flexible Part Settings

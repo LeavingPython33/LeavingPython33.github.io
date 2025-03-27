@@ -54,5 +54,7 @@ I have experience in 3D-printing and manufacturing to bring my 3D models into th
 ### Tools
 * Fused Filament Fabrication (FFF)
 * PVC Welding
-* Laser Cutting ????
+* Laser Cutting 
+* Resin Printing
+* Powder Printing
 
