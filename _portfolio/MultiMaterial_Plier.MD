@@ -36,7 +36,7 @@ Print-in-place designs have been used in various applications, including:
 
 For a succesful Print-in-place job, you have to carefully consider the material selected to ensure smooth movement, durability, and minimal post-processing. The best materials depends on the type of mechanism (hinges, gears, springs, etc.) and whether you're using a single material or multi-material printing.
 
-Most Popular Material for FFF
+**Most Popular Material for FFF**
 1. PLA (Polylactic Acid)
     * ✅ Pros: Easy to print, rigid, good for gears and interlocking parts
     * ❌ Cons: Brittle over time, poor flexibility (can snap on thin hinges)
@@ -54,6 +54,13 @@ Most Popular Material for FFF
     * ❌ Cons: Prone to warping, Fumes & ventilation needed, tricky layer adhesion, not as elastic as TPU
     * Best for: High-stress PIP parts (e.g., tool handles, mechanical latches), applications needing heat resistance (e.g., automotive, outdoor use)
 
+**Multi-Material Printing**
+
+For printers with dual extrusion, combining materials improves functionality:
+1. PLA + TPU - Rigid PLA for structural parts + flexible TPU for hinges/springs.
+2. PETG + TPU - More durable than PLA, with TPU providing flexibility.
+3. ABS + TPU - High-strength, heat-resistant ABS with elastic TPU.
+
 # Embedded CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d1010e3cb984da3e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -70,7 +77,9 @@ Most Popular Material for FFF
 The pliers feature an integrated a hinge spring, allowing the jaws to return to their default position. The spring was designed with:
 * Holes for snap-fitting the handles and jaws
 * Clearence between the jaws for more degree of movement
-* Flat bottom and top for advanced slicing in creating the spring form
+* Flat bottom and top layer for advanced slicing, which is how I created the spring mechanism in this project
+    * By removing the top and bottom solid layer we allow the infill to become a spring 
+    * Also make the infill pattern rectilinear for straight and predictable spring motion
 
 **Jaw Specification**
 * Jaw Length: 56mm
