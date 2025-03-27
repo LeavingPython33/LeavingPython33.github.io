@@ -12,7 +12,7 @@ categories:
 tags:
   - CAD
   - Resin-Printing
-meta: "January 12, 2025"
+meta: "Match 25, 2025"
 
 gallery:
   - image_path: /assets/img/syringe/image3.png
