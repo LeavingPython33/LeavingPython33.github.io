@@ -29,7 +29,7 @@ toc_icon: bars
 This project showcases a fully 3D-printed, print-in-place pliers design that requires no special tools to assemble. Print-in-place technique allow for detailed mechanisms, such as hinges, gears, and springs, to be printed in one job without post-processing. It also allows for the mechanisms to be encased which wouldn't be possible without the print-in-place technique.
 
 Print-in-place designs have been used in various applications, including:
-* Articulated toys (e.g., flexi dragons, snakes, octopus)
+* Articulated toys (flexi dragons, snakes, octopus)
 * Mechanical tools (wrenches, pliers, adjustable clamps)
 * Mechanical demonstration (gears, bearings, joints)
 * Household items (foldable hinges, bottle openers)
@@ -40,7 +40,7 @@ For a succesful Print-in-place job, you have to carefully consider the material 
 1. PLA (Polylactic Acid)
     * ✅ Pros: Easy to print, rigid, good for gears and interlocking parts
     * ❌ Cons: Brittle over time, poor flexibility (can snap on thin hinges)
-    * Best for: Low-stress PIP designs (e.g., articulated toys, simple hinges)
+    * Best for: Low-stress print-in-place designs (articulated toys, simple hinges)
 2. PETG (Polyethylene Terephthalate Glycol)
     * ✅ Pros: More flexible than PLA, better layer adhesion, impact-resistant
     * ❌ Cons: Slightly stringy, requires tuning for bridging
@@ -48,11 +48,11 @@ For a succesful Print-in-place job, you have to carefully consider the material 
 3. TPU (Thermoplastic Polyurethane, 95A or softer)
     * ✅ Pros: Extremely flexible, excellent for springs and snap-fit parts
     * ❌ Cons: Difficult to print (needs slow speeds, direct drive extruder)
-    * Best for: Living hinges, grippers, compliant mechanisms
+    * Best for: Living hinges, grippers, springs
 4. ABS (Acrylonitrile Butadiene Styrene)
     * ✅ Pros: High strength & durability, heat-resistant, slightly flexible
     * ❌ Cons: Prone to warping, Fumes & ventilation needed, tricky layer adhesion, not as elastic as TPU
-    * Best for: High-stress PIP parts (e.g., tool handles, mechanical latches), applications needing heat resistance (e.g., automotive, outdoor use)
+    * Best for: High-stress print-in-place parts (tool handles, mechanical latches), applications needing heat resistance (automotive, outdoor use)
 
 **Multi-Material Printing**
 
@@ -98,8 +98,8 @@ The pliers feature an integrated a hinge spring, allowing the jaws to return to 
 * PLA
     * For rigidity in the jaws and handles
 * TPU
-    * For spring effect in the flexible section of the mult-material pliers
-    * Allows for snap-fit with PLA
+    * For spring effect in the flexible section of the mult-material pliers to return the jaws back to its original position with ease
+    * Allows for snap-fit with PLA parts
 
 ## Key Iterations
 1. First Iteration – First print of handles, jaw, and spring mechanism, but snap-fit joint and jaw print failed
