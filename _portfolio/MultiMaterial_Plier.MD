@@ -11,7 +11,6 @@ categories:
   - Additive Manufacturing
 tags:
   - CAD
-  - FDM
 meta: "March 27, 2025"
 
 gallery:
