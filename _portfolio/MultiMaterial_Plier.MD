@@ -33,7 +33,7 @@ Print-in-place designs have been used in various applications, including:
 * Mechanical demonstration (gears, bearings, joints)
 * Household items (foldable hinges, bottle openers)
 
-For a succesful Print-in-place job, you have to carefully consider the material selected to ensure smooth movement, durability, and minimal post-processing. The best materials depends on the type of mechanism (hinges, gears, springs, etc.) and whether you're using a single material or multi-material printing.
+For a succesful Print-in-place job, you have to carefully consider the material selected to ensure smooth movement, durability, and minimal post-processing. The best materials depends on the type of mechanism (hinges, gears, springs, and etc.) and whether you're using a single material or multi-material printing.
 
 **Most Popular Material for FFF**
 1. PLA (Polylactic Acid)
@@ -45,7 +45,7 @@ For a succesful Print-in-place job, you have to carefully consider the material 
     * ❌ Cons: Slightly stringy, requires tuning for bridging
     * Best for: Functional tools (pliers, wrenches) where slight flex is needed
 3. TPU (Thermoplastic Polyurethane, 95A or softer)
-    * ✅ Pros: Extremely flexible, excellent for springs and snap-fit parts
+    * ✅ Pros: Extremely flexible, excellent for springs and snap-fit parts 
     * ❌ Cons: Difficult to print (needs slow speeds, direct drive extruder)
     * Best for: Living hinges, grippers, springs
 4. ABS (Acrylonitrile Butadiene Styrene)
@@ -55,10 +55,10 @@ For a succesful Print-in-place job, you have to carefully consider the material 
 
 **Multi-Material Printing**
 
-For printers with dual extrusion, combining materials improves functionality:
+For printers with dual extrusion, combining materials adds and improves functionality:
 1. PLA + TPU - Rigid PLA for structural parts + flexible TPU for hinges/springs.
-2. PETG + TPU - More durable than PLA, with TPU providing flexibility.
-3. ABS + TPU - High-strength, heat-resistant ABS with elastic TPU.
+2. PETG + TPU - More durable than PLA + flexible TPU for hinges/springs.
+3. ABS + TPU - High-strength, heat-resistant ABS + flexible TPU for hinges/springs.
 
 # Embedded CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d1010e3cb984da3e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
