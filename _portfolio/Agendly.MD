@@ -41,6 +41,7 @@ toc_sticky: true
 toc_icon: bars
 
 search: true
+type: Outside Projects
 ---
 
 # Demonstration

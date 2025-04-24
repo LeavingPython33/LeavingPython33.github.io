@@ -23,6 +23,8 @@ toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
 toc_icon: bars
+
+type: Outside Projects
 ---
 
 # Features

@@ -21,6 +21,8 @@ toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
 toc_icon: bars
+
+type: Outside Projects
 ---
 
 A 3D-Printed Phone Holder for Bike Handlebars designed for securely mounting a phone on a bicycle handle.

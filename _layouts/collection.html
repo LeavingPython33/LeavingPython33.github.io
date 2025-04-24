@@ -5,6 +5,16 @@ layout: archive
 {{ content }}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
-</div>
+{% assign sorted_documents = site[page.collection] | sort: page.sort_by %}
+{% assign grouped_documents = sorted_documents | group_by: "type" %}
+
+{% for group in grouped_documents %}
+  <h2 class="collection-header" >{{ group.name | capitalize }}</h2>
+  <div class="entries-{{ entries_layout }}">
+    {% include documents-collection.html
+      entries=group.items
+      sort_by=page.sort_by
+      sort_order=page.sort_order
+      type=entries_layout %}
+  </div>
+{% endfor %}
