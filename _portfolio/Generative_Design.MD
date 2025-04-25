@@ -133,6 +133,13 @@ Generative design will be most useful for flight based designs for aerospace or 
 {: .text-center}
 
 ## Generative Design Iterations
-![Cast](/assets/img/generative/Generative_Results.png){: .align-center}{: .figures}{: style="height:350px;"}
+![Cast](/assets/img/generative/Generative_Results.png){: .align-center}{: .figures}
 *Fusion Generative Design workspace*
+{: .text-center}
+
+| ![](/assets/img/generative/GS1.png){: style="height:200px;" } | ![](/assets/img/generative/GS2.png){: style="height:200px;" } |
+
+ ![](/assets/img/generative/GS3.png){: .align-center}{: style="height:200px;" }
+
+*Fusion Generative Design Outcomes*
 {: .text-center}
