@@ -30,13 +30,13 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/img/PlasmaClose.jpeg">
+  <meta property="og:image" content="http://localhost:4000/assets/img/generative/Front_Mob8.jpeg">
 
 
 
 
 
-  <meta property="article:published_time" content="2025-04-23T14:50:39-05:00">
+  <meta property="article:published_time" content="2025-04-24T23:17:29-05:00">
 
 
 
@@ -162,7 +162,7 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/PlasmaClose.jpeg');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/generative/Front_Mob8.jpeg');"
 >
   
     <div class="wrapper">
@@ -208,15 +208,15 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-bars"></i> Table of Contents</h4></header>
-              <ul class="toc__menu"><li><a href="#overview-of-the-final-part-and-application">Overview of the Final Part and Application</a></li><li><a href="#preserve-and-obstacle-geometry">Preserve and Obstacle Geometry</a></li><li><a href="#load-case-application-and-structural-constraints">Load Case Application and Structural Constraints</a></li><li><a href="#critique-of-generative-design">Critique of Generative Design</a><ul><li><a href="#benefitslimitation">Benefits/Limitation</a></li><li><a href="#applications">Applications</a></li></ul></li><li><a href="#embedded-fusion-360-model">Embedded Fusion 360 Model</a><ul><li><a href="#base-model">Base Model</a></li><li><a href="#generated-design">Generated Design</a></li></ul></li><li><a href="#force-table">Force Table</a></li><li><a href="#multimedia">Multimedia</a><ul><li><a href="#irl-images">IRL Images</a></li><li><a href="#motion-in-use">Motion in Use</a></li><li><a href="#generative-design-iterations">Generative Design Iterations</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#overview-of-the-final-part-and-application">Overview of the Final Part and Application</a></li><li><a href="#preserve-and-obstacle-geometry">Preserve and Obstacle Geometry</a></li><li><a href="#load-case-application-and-structural-constraints">Load Case Application and Structural Constraints</a></li><li><a href="#critique-of-generative-design">Critique of Generative Design</a><ul><li><a href="#benefitslimitation">Benefits/Limitation</a></li><li><a href="#applications">Applications</a></li></ul></li><li><a href="#embedded-fusion-360-model">Embedded Fusion 360 Model</a><ul><li><a href="#base-model">Base Model</a></li><li><a href="#generated-design">Generated Design</a></li></ul></li><li><a href="#force-table">Force Table</a></li><li><a href="#multimedia">Multimedia</a><ul><li><a href="#images">Images</a></li><li><a href="#motion-in-use">Motion in Use</a></li><li><a href="#generative-design-iterations">Generative Design Iterations</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
         <h1 id="overview-of-the-final-part-and-application">Overview of the Final Part and Application</h1>
-<p>The final part is the frame of a whoop drone (FPV drone), specifically the Mobula 8 model. The frame is essential for keeping the drone’s components intact during crashes while remaining lightweight for smooth and fast flight. The drone frame’s weight is the most important factor in designing a frame, as heavier drones force the motors to work harder compared to lightweight ones. For whoop-type drones, a difference of just a few grams can significantly impact performance due to their small motors. Drones, once used only for war, are now being utilized in agriculture, construction, and cinematography.</p>
+<p>The final part is the frame of a whoop drone (FPV drone), specifically the Mobula 8 model. The frame is essential for keeping the drone’s components intact during crashes while remaining lightweight for smooth and fast flight. The drone frame’s weight is the most important factor in designing a frame, as heavier drones force the motors to work harder than lightweight ones. For whoop-type drones, a difference of just a few grams can significantly impact performance due to their small motors. Drones, once used only for war, are now being utilized in agriculture, construction, and cinematography.</p>
 
-<p>The standard Mobula 8 drone frames are effective at keeping the drone lightweight. However, the frame is flimsy, as even small forces can easily bend the plastic. After several flights, crashes eventually compromised the integrity of the frame, breaking plastic connections around the battery mount and prop protector. By generating a new Mobula 8 drone, I would be able to fix my whoop drone while also learning about the generative design process.</p>
+<p>The standard Mobula 8 drone frames are effective at keeping the drone lightweight. However, the frame is flimsy, as even small forces can easily bend the plastic. After several flights, crashes eventually compromised the frame’s integrity, breaking plastic connections around the battery mount and prop protector. By generating a new Mobula 8 drone, I would be able to fix my whoop drone while also learning about the generative design process.</p>
 
 <h1 id="preserve-and-obstacle-geometry">Preserve and Obstacle Geometry</h1>
 <p>The critical preserve regions in the model are:</p>
@@ -229,7 +229,7 @@
 
 <p>The obstacle geometry is based on the standard Mobula 8 drone frames and its different components:</p>
 <ul>
-  <li>Middle of drone frame must be open to allow the motor to connect to the flight controller</li>
+  <li>The middle of the drone frame must be open to allow the motor to connect to the flight controller</li>
   <li>There shouldn’t be anything around the motor that impedes the propellers from spinning</li>
   <li>The battery mount must be empty</li>
   <li>There shouldn’t be anything outside the prop guards</li>
@@ -241,33 +241,36 @@
 <p>In general, the forces I applied in the generative design are as follows:</p>
 
 <ul>
-  <li>Wind Force
+  <li>Wind Force  
     <ul>
-      <li>Wind force is prevalent in drone flying, as a gust of wind could push the drone to the side. Therefore, the frame must be sturdy enough to withstand some wind force without breaking apart or flying away.</li>
+      <li>Wind force is prevalent in drone flying, as a gust of wind could push the drone to the side. Therefore, the frame must be sturdy enough to withstand some wind force without breaking apart or flying away.
+ </li>
     </ul>
   </li>
-  <li>Movement Force
+  <li>Movement Force  
     <ul>
-      <li>Drones have three movements: yaw, pitch, and roll, each changing the throttle of the motors. Therefore, the drone’s frame must be able to handle sudden force changes from the motors.</li>
+      <li>Drones have three movements: yaw, pitch, and roll, each changing the throttle of the motors. Therefore, the drone’s frame must handle sudden force changes from the motors.
+ </li>
     </ul>
   </li>
-  <li>Weight Force
+  <li>Weight Force  
     <ul>
-      <li>The heaviest component of a drone is the battery, so the frame must be capable of holding the battery without breaking the battery holder from the frame.</li>
+      <li>The heaviest component of a drone is the battery, so the frame must be capable of holding the battery without breaking the battery holder from the frame.
+ </li>
     </ul>
   </li>
-  <li>Impact Force
+  <li>Impact Force  
     <ul>
       <li>We want the drone to stop flying at some point, so the drone’s frame needs to be able to handle landings without breaking.</li>
     </ul>
   </li>
 </ul>
 
-<p>I determined the magnitude, direction, and location of each load based on my experience flying drones and the use of LLM.</p>
+<p>I determined the magnitude, direction, and location of each load based on my experience flying drones and the use of a LLM.</p>
 
-<p>I applied structural constraints to the stands of the flight controller and video transmitter, as they shouldn’t be experiencing any significant forces. By adding these structural constraints, the design focuses on generating parts in unconstrained areas, redistributing the load.</p>
+<p>I applied structural constraints to the stands of the flight controller and video transmitter, as they shouldn’t be experiencing any significant forces. With these structural constraints, the design focuses on generating parts in unconstrained areas and redistributing the load.</p>
 
-<p>By test-flying the generated drone frame, I can observe any failures in the prototype, such as cracks or breaks. By determining what forces caused the prototype to fail and then incorporating that information into the generative study, I can improve its generative design.</p>
+<p>By test-flying the generated drone frame, I can observe any failures in the prototype, such as cracks or breaks. By finding the forces that caused the failures and incorporating that forces into the generative study, I can improve the generation of the design.</p>
 
 <h1 id="critique-of-generative-design">Critique of Generative Design</h1>
 
@@ -288,13 +291,13 @@
       <li>Takes forever to generate</li>
       <li>Incorrect forces can make the generated model not look right</li>
       <li>Difficult to manufacture without a powder printer</li>
-      <li>Difficult in figuring out the preserve and obstacle geometry</li>
+      <li>Difficult in figuring out the preserve and obstacle geometries</li>
     </ul>
   </li>
 </ul>
 
 <h2 id="applications">Applications</h2>
-<p>Generative design will be most useful for flight based designs for aerospace or aviation industries, where every gram matters in optimizing the design. However, generative design fall shorts for industry that wants to mass produce a design, as generative design isn’t easily manufacturable.</p>
+<p>Generative design will be most useful for flight based designs for aerospace or aviation industries, where every gram matters in optimizing the design. However, generative design fall shorts for industry that wants to mass produce a design, due to generative design not being easily manufacturable.</p>
 
 <h1 id="embedded-fusion-360-model">Embedded Fusion 360 Model</h1>
 
@@ -449,11 +452,31 @@
 
 <h1 id="multimedia">Multimedia</h1>
 
-<h2 id="irl-images">IRL Images</h2>
+<h2 id="images">Images</h2>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/img/generative/Stock_Mob8.jpg" alt="" />
+    
+  
+    
+      <img src="/assets/img/generative/Side_Mob8.jpeg" alt="" />
+    
+  
+  
+    <figcaption>Stock vs. Generative Mobula 8 Frame
+</figcaption>
+  
+</figure>
 
 <h2 id="motion-in-use">Motion in Use</h2>
+<p class="text-center"><img src="/assets/img/generative/Drone_Start.gif" alt="inAction" class="align-center" />
+<em>GIF of Drone Starting</em></p>
 
 <h2 id="generative-design-iterations">Generative Design Iterations</h2>
+<p class="text-center"><img src="/assets/img/generative/Generative_Results.png" alt="Cast" class="align-center figures" style="height:350px;" />
+<em>Fusion Generative Design workspace</em></p>
 
         
       </section>
