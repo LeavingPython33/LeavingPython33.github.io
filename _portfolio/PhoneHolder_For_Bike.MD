@@ -12,6 +12,7 @@ categories:
 tags:
   - CAD
 meta: "April 10, 2025"
+date: 2025-04-10
 
 gallery:
   - image_path: /assets/img/phoneholder/Landscape.jpeg

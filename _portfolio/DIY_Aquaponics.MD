@@ -13,6 +13,7 @@ tags:
   - CAD
   - 3D-Printing
 meta: "January 12, 2025"
+date: 2022-07-12
 
 gallery:
   - image_path: assets/img/Aquaponics.jpg

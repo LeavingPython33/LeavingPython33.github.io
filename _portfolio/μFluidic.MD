@@ -13,6 +13,7 @@ tags:
   - CAD
   - Resin-Printing
 meta: "Match 25, 2025"
+date: 2025-03-25
 
 gallery:
   - image_path: /assets/img/syringe/image3.png

@@ -19,6 +19,7 @@ tags:
   - Openai
   - Typescript
 meta: "January 12, 2025"
+date: 2024-10-12
 
 gallery:
   - url: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/053/202/datas/gallery.jpg

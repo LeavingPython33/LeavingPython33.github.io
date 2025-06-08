@@ -14,6 +14,7 @@ tags:
   - Proxmox
   - Cloudflare
 meta: "January 12, 2025"
+date: 2024-06-12
 
 gallery:
   - image_path: assets/img/Tower_Pre.jpg

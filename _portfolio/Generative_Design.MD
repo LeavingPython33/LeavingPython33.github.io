@@ -12,6 +12,7 @@ categories:
 tags:
   - CAD
 meta: "April 24, 2025"
+date: 2025-04-24
 
 gallery:
   - image_path: /assets/img/generative/Stock_Mob8.jpg

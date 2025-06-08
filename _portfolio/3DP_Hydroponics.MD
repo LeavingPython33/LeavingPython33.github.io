@@ -12,6 +12,7 @@ categories:
 tags:
   - 3D-Printing
 meta: "January 12, 2025"
+date: 2022-06-12
 
 gallery:
   - image_path: assets/img/Tower_Pre.jpg

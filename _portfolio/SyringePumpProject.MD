@@ -15,6 +15,7 @@ tags:
   - Electrical
   - Mechanical
 meta: "January 12, 2025"
+date: 2024-04-12
 
 gallery:
   - image_path: /assets/img/syringe/image3.png

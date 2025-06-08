@@ -12,6 +12,7 @@ categories:
 tags:
   - CAD
 meta: "March 27, 2025"
+date: 2025-03-27
 
 gallery:
   - image_path: /assets/img/plier/FirstIteration.JPG
