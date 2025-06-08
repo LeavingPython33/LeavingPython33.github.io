@@ -50,9 +50,6 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
-        {% if page.meta %}
-          <p class="page__custom-meta page__taxonomy"></i><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ page.meta_label | default: "Updated On" }}:</strong> {{ page.meta }}</p>
-        {% endif %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
