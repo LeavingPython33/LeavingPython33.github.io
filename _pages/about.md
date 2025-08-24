@@ -12,12 +12,16 @@ I have a diverse set of skills ranging from information technology to 3D design 
   * BS Computer Science
 
 ## Work Experience
-Commons Dining                 
+Conferences & Events Student Staff	              
+May 2025 – August 2025               
+*Federal Work Study Nashville, TN*
+* Provided customer service and operational support for university-hosted conferences, that includes guest check-in/out, facility preparation, on-call duty shifts, and coordination with campus departments to ensure great event execution
+
+Campus Dining Student Associate	              
 September 2023 – May 2024                 
 *Federal Work Study Nashville, TN*
-* At Commons Dining we cook and serve the students in Vanderbilt
-* As a student worker at Commons Dining, I help fill in the roles that are short in staff like cleaning the floors,
-wiping down counters, and serving food to students
+* Assisted in daily operations by filling in for understaffed roles, which includes food service, cleaning floors, sanitizing surfaces, and ensuring a clean and welcoming environment for students
+* Collaborated with dining staff to maintain fast and efficient food service during rush hour, ensuring a enjoyable dining experience for student and staff
 
 Design Build Grow Eat                 
 June 2023 – August. 2023                 
